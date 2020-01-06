@@ -931,6 +931,7 @@ export default class Select extends Component<Props, State> {
       event.target.tagName !== 'INPUT' &&
       event.target.tagName !== 'TEXTAREA'
     ) {
+      console.log('yo');
       event.preventDefault();
     }
   };
